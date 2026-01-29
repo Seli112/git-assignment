@@ -7,6 +7,9 @@ def sum_even_numbers(start, end):
         if num % 2 == 0:  # Check if number is even
             total += num
     return total
+def substract_numbers(a,b):
+"""Substract b from a"""
+return a-b
 
 if __name__ == "__main__":
   
